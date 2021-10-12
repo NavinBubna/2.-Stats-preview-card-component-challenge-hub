@@ -1,0 +1,42 @@
+:root {
+  --primary: hsl(233, 47%, 7%);
+  --secondary: hsl(244, 38%, 16%);
+  --accent: hsl(277, 64%, 61%);
+  --primary-heading: hsl(0, 0%, 100%);
+  --para: hsla(0, 0%, 100%, 0.75);
+  --secodary-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  background-color: var(--primary);
+}
+
+.card {
+  width: 330px;
+}
+
+.img-container {
+  width: 100%;
+  height: 240px;
+  background-image: url(../images/image-header-mobile.jpg);
+  background-size: 100%;
+}
+
+.img-color {
+  width: 100%;
+  height: 100%;
+  background-color: hsla(277, 64%, 61%, 0.6);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
